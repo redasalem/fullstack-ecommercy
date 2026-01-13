@@ -67,11 +67,6 @@ app.get("/api/health", (req, res) => {
     res.status(200).json({ message: "success" });
 });
 
-
-app.get("/api/reda", (req, res) => {
-    res.status(200).json({ message: "hello reda" });
-});
-
 // Connect to DB
 connectDB();
 
